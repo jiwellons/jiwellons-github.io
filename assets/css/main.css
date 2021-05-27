@@ -31,6 +31,17 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
+#canvas1 {
+	width: 800px;
+	height: 500px;
+	border: 1px solid black;
+	background: #1ebdd1;
+	display: block;
+	height: 100%;
+	transform: (-50%, -50%);
+}
+
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
@@ -2695,6 +2706,27 @@ input, select, textarea {
 		box-shadow: inset 0 0 0 1px #DC40A8;
 		color: #DC40A8;
 	}
+/* Delete Me */
+/* Background Video */
+#backgroundVideo {
+	position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+  }
+
+/* Content*/
+.test {
+	position: absolute;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.5);
+	color: #f1f1f1;
+	width: 100%;
+	padding: 20px;	
+}
+
 
 /* Image */
 
